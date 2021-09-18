@@ -1,0 +1,101 @@
+2021-09-18 23:26:53,694 - Wechaty - INFO - init_puppet_event_bridge() <<wechaty_puppet_service.puppet.PuppetService object at 0x7ff462c8db20>>
+2021-09-18 23:26:53,694 - Wechaty - INFO - initPuppetEventBridge() puppet.on(dong) (listenerCount:1) registering...
+2021-09-18 23:26:53,695 - Wechaty - INFO - initPuppetEventBridge() puppet.on(error) (listenerCount:1) registering...
+2021-09-18 23:26:53,695 - Wechaty - INFO - initPuppetEventBridge() puppet.on(heart-beat) (listenerCount:1) registering...
+2021-09-18 23:26:53,695 - Wechaty - INFO - initPuppetEventBridge() puppet.on(ready) (listenerCount:1) registering...
+2021-09-18 23:26:53,695 - Wechaty - INFO - receive <reset> event <%s>
+2021-09-18 23:26:53,695 - Wechaty - INFO - initPuppetEventBridge() puppet.on(reset) (listenerCount:0) registering...
+2021-09-18 23:26:53,695 - Wechaty - INFO - initPuppetEventBridge() puppet.on(friendship) (listenerCount:1) registering...
+2021-09-18 23:26:53,695 - Wechaty - INFO - initPuppetEventBridge() puppet.on(login) (listenerCount:1) registering...
+2021-09-18 23:26:53,695 - Wechaty - INFO - initPuppetEventBridge() puppet.on(logout) (listenerCount:1) registering...
+2021-09-18 23:26:53,696 - Wechaty - INFO - initPuppetEventBridge() puppet.on(message) (listenerCount:1) registering...
+2021-09-18 23:26:53,696 - Wechaty - INFO - initPuppetEventBridge() puppet.on(room-invite) (listenerCount:1) registering...
+2021-09-18 23:26:53,696 - Wechaty - INFO - initPuppetEventBridge() puppet.on(room-join) (listenerCount:1) registering...
+2021-09-18 23:26:53,696 - Wechaty - INFO - initPuppetEventBridge() puppet.on(room-leave) (listenerCount:1) registering...
+2021-09-18 23:26:53,696 - Wechaty - INFO - initPuppetEventBridge() puppet.on(room-topic) (listenerCount:1) registering...
+2021-09-18 23:26:53,696 - Wechaty - INFO - initPuppetEventBridge() puppet.on(scan) (listenerCount:1) registering...
+2021-09-18 23:26:53,696 - Wechaty - INFO - starting puppet ...
+2021-09-18 23:26:53,696 - HostiePuppet - INFO - init puppet
+2021-09-18 23:26:53,696 - HostiePuppet - INFO - There is no endpoint in cache, trying to fetch endpoint with token.
+2021-09-18 23:26:55,196 - HostiePuppet - DEBUG - get puppet ip address : <{'host': '120.55.60.194', 'ip': '120.55.60.194', 'port': 7777}>
+2021-09-18 23:26:55,242 - HostiePuppet - INFO - starting the puppet ...
+2021-09-18 23:26:55,390 - HostiePuppet - INFO - puppet has started ...
+2021-09-18 23:26:55,390 - HostiePuppet - INFO - listening the event from the puppet ...
+2021-09-18 23:26:55,440 - HostiePuppet - DEBUG - receive scan info <{'qrcode': 'http://weixin.qq.com/x/Y_aaleoCK5-r2DHNZWMp', 'status': 2}>
+2021-09-18 23:26:55,440 - Wechaty - INFO - receive <scan> event <EventScanPayload(status=<ScanStatus.Waiting: 2>, qrcode='http://weixin.qq.com/x/Y_aaleoCK5-r2DHNZWMp', data=None)>
+2021-09-18 23:26:55,478 - Wechaty - INFO - or you can scan qrcode from: https://wechaty.js.org/qrcode/http://weixin.qq.com/x/Y_aaleoCK5-r2DHNZWMp
+2021-09-18 23:26:55,479 - Wechaty - DEBUG - emit() event <['http://weixin.qq.com/x/Y_aaleoCK5-r2DHNZWMp', 'ScanStatus.Waiting', 'None']> <{}>
+2021-09-18 23:26:55,479 - Wechaty - ERROR - internal error <>
+2021-09-18 23:27:00,546 - HostiePuppet - DEBUG - receive scan info <{'qrcode': 'http://weixin.qq.com/x/Y_aaleoCK5-r2DHNZWMp', 'status': 2}>
+2021-09-18 23:27:00,547 - Wechaty - INFO - receive <scan> event <EventScanPayload(status=<ScanStatus.Waiting: 2>, qrcode='http://weixin.qq.com/x/Y_aaleoCK5-r2DHNZWMp', data=None)>
+2021-09-18 23:27:00,590 - Wechaty - INFO - or you can scan qrcode from: https://wechaty.js.org/qrcode/http://weixin.qq.com/x/Y_aaleoCK5-r2DHNZWMp
+2021-09-18 23:27:00,590 - Wechaty - DEBUG - emit() event <['http://weixin.qq.com/x/Y_aaleoCK5-r2DHNZWMp', 'ScanStatus.Waiting', 'None']> <{}>
+2021-09-18 23:27:00,591 - Wechaty - ERROR - internal error <>
+2021-09-18 23:27:06,817 - HostiePuppet - DEBUG - receive login info <{'contactId': 'nnK1ng'}>
+2021-09-18 23:27:06,818 - wechaty.plugin - INFO - init the plugins ...
+2021-09-18 23:27:06,818 - Wechaty - INFO - receive <login> event <EventLoginPayload(contact_id='nnK1ng')>
+2021-09-18 23:27:06,821 - HostiePuppet - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2021-09-25T20:46:54.000+08:00'}>
+2021-09-18 23:27:06,821 - HostiePuppet - DEBUG - receive ready info <{'data': 'ready'}>
+2021-09-18 23:27:06,821 - Wechaty - INFO - receive <ready> event <EventReadyPayload(data='ready')>
+2021-09-18 23:27:06,822 - Wechaty - DEBUG - emit() event <["EventReadyPayload(data='ready')"]> <{}>
+2021-09-18 23:27:06,822 - Contact - INFO - find_all() <<class 'wechaty.wechaty.Contact'>, None>
+2021-09-18 23:27:06,872 - Contact - INFO - load contact <Contact <nnK1ng> <树彬>>
+2021-09-18 23:27:06,872 - Wechaty - DEBUG - emit() event <['Contact <nnK1ng> <树彬>']> <{}>
+2021-09-18 23:27:06,976 - Contact - INFO - load contact <Contact <filehelper> <文件传输助手>>
+2021-09-18 23:27:07,026 - Contact - INFO - load contact <Contact <fiona0714ma> <马老师>>
+2021-09-18 23:27:07,079 - Contact - INFO - load contact <Contact <floatbottle> <漂流瓶>>
+2021-09-18 23:27:07,129 - Contact - INFO - load contact <Contact <gh_05a1477e125e> <西南财经大学金融学院>>
+2021-09-18 23:27:07,182 - Contact - INFO - load contact <Contact <gh_0cd4c9ed9aaa> <宇臣电商>>
+2021-09-18 23:27:07,233 - Contact - INFO - load contact <Contact <gh_26216ec7acea> <秦记手工面>>
+2021-09-18 23:27:07,283 - Contact - INFO - load contact <Contact <gh_2aa6e8ca37d9> <西南财经大学>>
+2021-09-18 23:27:07,334 - Contact - INFO - load contact <Contact <gh_3bfdb65a33ab> <猫粮工作室>>
+2021-09-18 23:27:07,391 - Contact - INFO - load contact <Contact <gh_3dfda90e39d6> <微信支付>>
+2021-09-18 23:27:07,441 - Contact - INFO - load contact <Contact <gh_3eebe0f5ca51> <阿里云开发者>>
+2021-09-18 23:27:07,470 - HostiePuppet - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2021-09-25T20:46:54.000+08:00'}>
+2021-09-18 23:27:07,490 - Contact - INFO - load contact <Contact <gh_47dd714e2746> <西大小哆啦>>
+2021-09-18 23:27:07,539 - Contact - INFO - load contact <Contact <gh_486994bdc191> <小冰>>
+2021-09-18 23:27:07,587 - Contact - INFO - load contact <Contact <gh_5194e3fe1245> <职朋>>
+2021-09-18 23:27:07,638 - Contact - INFO - load contact <Contact <gh_565535f84f08> <你画我猜狼人请杀人Shift>>
+2021-09-18 23:27:07,687 - Contact - INFO - load contact <Contact <gh_5cea910bbef7> <汇Life生活服务平台>>
+2021-09-18 23:27:07,735 - Contact - INFO - load contact <Contact <gh_665846cb4e81> <财经节析>>
+2021-09-18 23:27:07,785 - Contact - INFO - load contact <Contact <gh_6bdb51063986> <腾讯充值>>
+2021-09-18 23:27:07,836 - Contact - INFO - load contact <Contact <gh_75e1ef6d392d> <桃花岛蓉妹妹>>
+2021-09-18 23:27:07,884 - Contact - INFO - load contact <Contact <gh_7e1f6c1c86f4> <天天装逼平台>>
+2021-09-18 23:27:07,934 - Contact - INFO - load contact <Contact <gh_7fc9311f04ad> <阿里技术>>
+2021-09-18 23:27:07,985 - Contact - INFO - load contact <Contact <gh_886eca9dc11b> <微助教服务号>>
+2021-09-18 23:27:08,034 - Contact - INFO - load contact <Contact <gh_8a8cce549a85> <顺丰速运>>
+2021-09-18 23:27:08,084 - Contact - INFO - load contact <Contact <gh_8bc3f9d6add0> <gh_8bc3f9d6add0>>
+2021-09-18 23:27:08,134 - Contact - INFO - load contact <Contact <gh_8c5764a5ec55> <西南财大研究生会>>
+2021-09-18 23:27:08,182 - Contact - INFO - load contact <Contact <gh_95c45d00c020> <财经早餐>>
+2021-09-18 23:27:08,235 - Contact - INFO - load contact <Contact <gh_971744a1b413> <雅马哈电子键盘乐器>>
+2021-09-18 23:27:08,284 - Contact - INFO - load contact <Contact <gh_a19ea6bab60c> <WPS办公助手>>
+2021-09-18 23:27:08,333 - Contact - INFO - load contact <Contact <gh_a8d0a958ec9c> <招商银行招聘>>
+2021-09-18 23:27:08,383 - Contact - INFO - load contact <Contact <gh_aca0f94c41bd> <微众银行WeBank>>
+2021-09-18 23:27:08,434 - Contact - INFO - load contact <Contact <gh_ae335de31890> <清迈安居>>
+2021-09-18 23:27:08,483 - Contact - INFO - load contact <Contact <gh_ae698dd716c9> <肯德基>>
+2021-09-18 23:27:08,534 - Contact - INFO - load contact <Contact <gh_b1d10090a95b> <南方航空>>
+2021-09-18 23:27:08,582 - Contact - INFO - load contact <Contact <gh_bb7b2b19ad33> <自享公寓>>
+2021-09-18 23:27:08,633 - Contact - INFO - load contact <Contact <gh_bc8defa01ede> <新疆招生就业中心>>
+2021-09-18 23:27:08,682 - Contact - INFO - load contact <Contact <gh_cb35df797699> <一剪成名时尚快剪>>
+2021-09-18 23:27:08,712 - HostiePuppet - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2021-09-25T20:46:54.000+08:00'}>
+2021-09-18 23:27:08,732 - Contact - INFO - load contact <Contact <gh_cc99c9617efa> <西南财大金融研会>>
+2021-09-18 23:27:08,780 - Contact - INFO - load contact <Contact <gh_d609c6837d22> <成都红旗连锁股份有限公司>>
+2021-09-18 23:27:08,828 - Contact - INFO - load contact <Contact <gh_dad1523be658> <夜店时尚女王>>
+2021-09-18 23:27:08,877 - Contact - INFO - load contact <Contact <gh_deaaa17a32cc> <鲁斯菲尔精品课>>
+2021-09-18 23:27:08,925 - Contact - INFO - load contact <Contact <gh_e0b28326fe5b> <成都地铁服务>>
+2021-09-18 23:27:08,973 - Contact - INFO - load contact <Contact <gh_eb2ef06f2ba7> <墨刀>>
+2021-09-18 23:27:09,023 - Contact - INFO - load contact <Contact <gh_f39b8cd04325> <WeBank招聘>>
+2021-09-18 23:27:09,073 - Contact - INFO - load contact <Contact <gh_fcff19a9da74> <MLThot>>
+2021-09-18 23:27:09,122 - Contact - INFO - load contact <Contact <hanwen365558> <韩雯>>
+2021-09-18 23:27:09,173 - Contact - INFO - load contact <Contact <king1269> <李凡>>
+2021-09-18 23:27:09,223 - Contact - INFO - load contact <Contact <medianote> <语音记事本>>
+2021-09-18 23:27:09,273 - Contact - INFO - load contact <Contact <qmessage> <QQ离线消息>>
+2021-09-18 23:27:09,323 - Contact - INFO - load contact <Contact <qqmail> <QQ邮箱提醒>>
+2021-09-18 23:27:09,372 - Contact - INFO - load contact <Contact <qqsafe> <QQ安全中心>>
+2021-09-18 23:27:09,421 - Contact - INFO - load contact <Contact <tmessage> <tmessage>>
+2021-09-18 23:27:09,471 - Contact - INFO - load contact <Contact <weibo> <weibo>>
+2021-09-18 23:27:09,520 - Contact - INFO - load contact <Contact <weiboy4044> <舅舅>>
+2021-09-18 23:27:09,573 - Contact - INFO - load contact <Contact <weixin> <微信团队>>
+2021-09-18 23:27:09,623 - Contact - INFO - load contact <Contact <whxhsxy> <白映冰>>
+2021-09-18 23:27:09,674 - HostiePuppet - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2021-09-25T20:46:54.000+08:00'}>
+2021-09-18 23:27:09,675 - Contact - INFO - load contact <Contact <wxid_0960499606312> <闫队>>

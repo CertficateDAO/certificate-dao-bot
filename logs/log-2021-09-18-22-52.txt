@@ -1,0 +1,122 @@
+2021-09-18 22:52:17,910 - Wechaty - INFO - init_puppet_event_bridge() <<wechaty_puppet_service.puppet.PuppetService object at 0x7f97284c9610>>
+2021-09-18 22:52:17,910 - Wechaty - INFO - initPuppetEventBridge() puppet.on(dong) (listenerCount:1) registering...
+2021-09-18 22:52:17,910 - Wechaty - INFO - initPuppetEventBridge() puppet.on(error) (listenerCount:1) registering...
+2021-09-18 22:52:17,910 - Wechaty - INFO - initPuppetEventBridge() puppet.on(heart-beat) (listenerCount:1) registering...
+2021-09-18 22:52:17,911 - Wechaty - INFO - initPuppetEventBridge() puppet.on(ready) (listenerCount:1) registering...
+2021-09-18 22:52:17,911 - Wechaty - INFO - receive <reset> event <%s>
+2021-09-18 22:52:17,911 - Wechaty - INFO - initPuppetEventBridge() puppet.on(reset) (listenerCount:0) registering...
+2021-09-18 22:52:17,911 - Wechaty - INFO - initPuppetEventBridge() puppet.on(friendship) (listenerCount:1) registering...
+2021-09-18 22:52:17,911 - Wechaty - INFO - initPuppetEventBridge() puppet.on(login) (listenerCount:1) registering...
+2021-09-18 22:52:17,911 - Wechaty - INFO - initPuppetEventBridge() puppet.on(logout) (listenerCount:1) registering...
+2021-09-18 22:52:17,912 - Wechaty - INFO - initPuppetEventBridge() puppet.on(message) (listenerCount:1) registering...
+2021-09-18 22:52:17,912 - Wechaty - INFO - initPuppetEventBridge() puppet.on(room-invite) (listenerCount:1) registering...
+2021-09-18 22:52:17,912 - Wechaty - INFO - initPuppetEventBridge() puppet.on(room-join) (listenerCount:1) registering...
+2021-09-18 22:52:17,912 - Wechaty - INFO - initPuppetEventBridge() puppet.on(room-leave) (listenerCount:1) registering...
+2021-09-18 22:52:17,912 - Wechaty - INFO - initPuppetEventBridge() puppet.on(room-topic) (listenerCount:1) registering...
+2021-09-18 22:52:17,914 - Wechaty - INFO - initPuppetEventBridge() puppet.on(scan) (listenerCount:1) registering...
+2021-09-18 22:52:17,914 - Wechaty - INFO - starting puppet ...
+2021-09-18 22:52:17,914 - HostiePuppet - INFO - init puppet
+2021-09-18 22:52:17,915 - HostiePuppet - INFO - There is no endpoint in cache, trying to fetch endpoint with token.
+2021-09-18 22:52:23,454 - HostiePuppet - DEBUG - get puppet ip address : <{'host': '120.55.60.194', 'ip': '120.55.60.194', 'port': 7777}>
+2021-09-18 22:52:23,500 - HostiePuppet - INFO - starting the puppet ...
+2021-09-18 22:52:23,637 - HostiePuppet - INFO - puppet has started ...
+2021-09-18 22:52:23,638 - HostiePuppet - INFO - listening the event from the puppet ...
+2021-09-18 22:52:24,363 - HostiePuppet - DEBUG - receive scan info <{'qrcode': 'http://weixin.qq.com/x/I6_hh3GrY-lIaQ7gv0yh', 'status': 2}>
+2021-09-18 22:52:24,363 - Wechaty - INFO - receive <scan> event <EventScanPayload(status=<ScanStatus.Waiting: 2>, qrcode='http://weixin.qq.com/x/I6_hh3GrY-lIaQ7gv0yh', data=None)>
+2021-09-18 22:52:24,407 - Wechaty - INFO - or you can scan qrcode from: https://wechaty.js.org/qrcode/http://weixin.qq.com/x/I6_hh3GrY-lIaQ7gv0yh
+2021-09-18 22:52:24,409 - Wechaty - DEBUG - emit() event <['http://weixin.qq.com/x/I6_hh3GrY-lIaQ7gv0yh', 'ScanStatus.Waiting', 'None']> <{}>
+2021-09-18 22:52:24,410 - Wechaty - ERROR - internal error <>
+2021-09-18 22:52:29,475 - HostiePuppet - DEBUG - receive scan info <{'qrcode': 'http://weixin.qq.com/x/I6_hh3GrY-lIaQ7gv0yh', 'status': 2}>
+2021-09-18 22:52:29,475 - Wechaty - INFO - receive <scan> event <EventScanPayload(status=<ScanStatus.Waiting: 2>, qrcode='http://weixin.qq.com/x/I6_hh3GrY-lIaQ7gv0yh', data=None)>
+2021-09-18 22:52:29,517 - Wechaty - INFO - or you can scan qrcode from: https://wechaty.js.org/qrcode/http://weixin.qq.com/x/I6_hh3GrY-lIaQ7gv0yh
+2021-09-18 22:52:29,517 - Wechaty - DEBUG - emit() event <['http://weixin.qq.com/x/I6_hh3GrY-lIaQ7gv0yh', 'ScanStatus.Waiting', 'None']> <{}>
+2021-09-18 22:52:29,518 - Wechaty - ERROR - internal error <>
+2021-09-18 22:52:34,485 - HostiePuppet - DEBUG - receive scan info <{'qrcode': 'http://weixin.qq.com/x/I6_hh3GrY-lIaQ7gv0yh', 'status': 2}>
+2021-09-18 22:52:34,486 - Wechaty - INFO - receive <scan> event <EventScanPayload(status=<ScanStatus.Waiting: 2>, qrcode='http://weixin.qq.com/x/I6_hh3GrY-lIaQ7gv0yh', data=None)>
+2021-09-18 22:52:34,535 - Wechaty - INFO - or you can scan qrcode from: https://wechaty.js.org/qrcode/http://weixin.qq.com/x/I6_hh3GrY-lIaQ7gv0yh
+2021-09-18 22:52:34,536 - Wechaty - DEBUG - emit() event <['http://weixin.qq.com/x/I6_hh3GrY-lIaQ7gv0yh', 'ScanStatus.Waiting', 'None']> <{}>
+2021-09-18 22:52:34,536 - Wechaty - ERROR - internal error <>
+2021-09-18 22:52:39,479 - HostiePuppet - DEBUG - receive scan info <{'qrcode': 'http://weixin.qq.com/x/I6_hh3GrY-lIaQ7gv0yh', 'status': 2}>
+2021-09-18 22:52:39,479 - Wechaty - INFO - receive <scan> event <EventScanPayload(status=<ScanStatus.Waiting: 2>, qrcode='http://weixin.qq.com/x/I6_hh3GrY-lIaQ7gv0yh', data=None)>
+2021-09-18 22:52:39,537 - Wechaty - INFO - or you can scan qrcode from: https://wechaty.js.org/qrcode/http://weixin.qq.com/x/I6_hh3GrY-lIaQ7gv0yh
+2021-09-18 22:52:39,537 - Wechaty - DEBUG - emit() event <['http://weixin.qq.com/x/I6_hh3GrY-lIaQ7gv0yh', 'ScanStatus.Waiting', 'None']> <{}>
+2021-09-18 22:52:39,538 - Wechaty - ERROR - internal error <>
+2021-09-18 22:52:44,475 - HostiePuppet - DEBUG - receive scan info <{'qrcode': 'http://weixin.qq.com/x/I6_hh3GrY-lIaQ7gv0yh', 'status': 2}>
+2021-09-18 22:52:44,476 - Wechaty - INFO - receive <scan> event <EventScanPayload(status=<ScanStatus.Waiting: 2>, qrcode='http://weixin.qq.com/x/I6_hh3GrY-lIaQ7gv0yh', data=None)>
+2021-09-18 22:52:44,511 - Wechaty - INFO - or you can scan qrcode from: https://wechaty.js.org/qrcode/http://weixin.qq.com/x/I6_hh3GrY-lIaQ7gv0yh
+2021-09-18 22:52:44,511 - Wechaty - DEBUG - emit() event <['http://weixin.qq.com/x/I6_hh3GrY-lIaQ7gv0yh', 'ScanStatus.Waiting', 'None']> <{}>
+2021-09-18 22:52:44,511 - Wechaty - ERROR - internal error <>
+2021-09-18 22:52:49,473 - HostiePuppet - DEBUG - receive scan info <{'qrcode': 'http://weixin.qq.com/x/I6_hh3GrY-lIaQ7gv0yh', 'status': 2}>
+2021-09-18 22:52:49,474 - Wechaty - INFO - receive <scan> event <EventScanPayload(status=<ScanStatus.Waiting: 2>, qrcode='http://weixin.qq.com/x/I6_hh3GrY-lIaQ7gv0yh', data=None)>
+2021-09-18 22:52:49,535 - Wechaty - INFO - or you can scan qrcode from: https://wechaty.js.org/qrcode/http://weixin.qq.com/x/I6_hh3GrY-lIaQ7gv0yh
+2021-09-18 22:52:49,535 - Wechaty - DEBUG - emit() event <['http://weixin.qq.com/x/I6_hh3GrY-lIaQ7gv0yh', 'ScanStatus.Waiting', 'None']> <{}>
+2021-09-18 22:52:49,536 - Wechaty - ERROR - internal error <>
+2021-09-18 22:52:54,460 - HostiePuppet - DEBUG - receive scan info <{'qrcode': 'http://weixin.qq.com/x/I6_hh3GrY-lIaQ7gv0yh', 'status': 2}>
+2021-09-18 22:52:54,460 - Wechaty - INFO - receive <scan> event <EventScanPayload(status=<ScanStatus.Waiting: 2>, qrcode='http://weixin.qq.com/x/I6_hh3GrY-lIaQ7gv0yh', data=None)>
+2021-09-18 22:52:54,503 - Wechaty - INFO - or you can scan qrcode from: https://wechaty.js.org/qrcode/http://weixin.qq.com/x/I6_hh3GrY-lIaQ7gv0yh
+2021-09-18 22:52:54,503 - Wechaty - DEBUG - emit() event <['http://weixin.qq.com/x/I6_hh3GrY-lIaQ7gv0yh', 'ScanStatus.Waiting', 'None']> <{}>
+2021-09-18 22:52:54,503 - Wechaty - ERROR - internal error <>
+2021-09-18 22:52:59,478 - HostiePuppet - DEBUG - receive scan info <{'qrcode': 'http://weixin.qq.com/x/I6_hh3GrY-lIaQ7gv0yh', 'status': 2}>
+2021-09-18 22:52:59,479 - Wechaty - INFO - receive <scan> event <EventScanPayload(status=<ScanStatus.Waiting: 2>, qrcode='http://weixin.qq.com/x/I6_hh3GrY-lIaQ7gv0yh', data=None)>
+2021-09-18 22:52:59,520 - Wechaty - INFO - or you can scan qrcode from: https://wechaty.js.org/qrcode/http://weixin.qq.com/x/I6_hh3GrY-lIaQ7gv0yh
+2021-09-18 22:52:59,520 - Wechaty - DEBUG - emit() event <['http://weixin.qq.com/x/I6_hh3GrY-lIaQ7gv0yh', 'ScanStatus.Waiting', 'None']> <{}>
+2021-09-18 22:52:59,520 - Wechaty - ERROR - internal error <>
+2021-09-18 22:53:04,465 - HostiePuppet - DEBUG - receive scan info <{'qrcode': 'http://weixin.qq.com/x/I6_hh3GrY-lIaQ7gv0yh', 'status': 2}>
+2021-09-18 22:53:04,466 - Wechaty - INFO - receive <scan> event <EventScanPayload(status=<ScanStatus.Waiting: 2>, qrcode='http://weixin.qq.com/x/I6_hh3GrY-lIaQ7gv0yh', data=None)>
+2021-09-18 22:53:04,509 - Wechaty - INFO - or you can scan qrcode from: https://wechaty.js.org/qrcode/http://weixin.qq.com/x/I6_hh3GrY-lIaQ7gv0yh
+2021-09-18 22:53:04,509 - Wechaty - DEBUG - emit() event <['http://weixin.qq.com/x/I6_hh3GrY-lIaQ7gv0yh', 'ScanStatus.Waiting', 'None']> <{}>
+2021-09-18 22:53:04,510 - Wechaty - ERROR - internal error <>
+2021-09-18 22:53:09,505 - HostiePuppet - DEBUG - receive scan info <{'qrcode': 'http://weixin.qq.com/x/I6_hh3GrY-lIaQ7gv0yh', 'status': 2}>
+2021-09-18 22:53:09,505 - Wechaty - INFO - receive <scan> event <EventScanPayload(status=<ScanStatus.Waiting: 2>, qrcode='http://weixin.qq.com/x/I6_hh3GrY-lIaQ7gv0yh', data=None)>
+2021-09-18 22:53:09,547 - Wechaty - INFO - or you can scan qrcode from: https://wechaty.js.org/qrcode/http://weixin.qq.com/x/I6_hh3GrY-lIaQ7gv0yh
+2021-09-18 22:53:09,547 - Wechaty - DEBUG - emit() event <['http://weixin.qq.com/x/I6_hh3GrY-lIaQ7gv0yh', 'ScanStatus.Waiting', 'None']> <{}>
+2021-09-18 22:53:09,547 - Wechaty - ERROR - internal error <>
+2021-09-18 22:53:14,477 - HostiePuppet - DEBUG - receive scan info <{'qrcode': 'http://weixin.qq.com/x/I6_hh3GrY-lIaQ7gv0yh', 'status': 2}>
+2021-09-18 22:53:14,478 - Wechaty - INFO - receive <scan> event <EventScanPayload(status=<ScanStatus.Waiting: 2>, qrcode='http://weixin.qq.com/x/I6_hh3GrY-lIaQ7gv0yh', data=None)>
+2021-09-18 22:53:14,520 - Wechaty - INFO - or you can scan qrcode from: https://wechaty.js.org/qrcode/http://weixin.qq.com/x/I6_hh3GrY-lIaQ7gv0yh
+2021-09-18 22:53:14,520 - Wechaty - DEBUG - emit() event <['http://weixin.qq.com/x/I6_hh3GrY-lIaQ7gv0yh', 'ScanStatus.Waiting', 'None']> <{}>
+2021-09-18 22:53:14,521 - Wechaty - ERROR - internal error <>
+2021-09-18 22:53:19,466 - HostiePuppet - DEBUG - receive scan info <{'qrcode': 'http://weixin.qq.com/x/I6_hh3GrY-lIaQ7gv0yh', 'status': 2}>
+2021-09-18 22:53:19,466 - Wechaty - INFO - receive <scan> event <EventScanPayload(status=<ScanStatus.Waiting: 2>, qrcode='http://weixin.qq.com/x/I6_hh3GrY-lIaQ7gv0yh', data=None)>
+2021-09-18 22:53:19,506 - Wechaty - INFO - or you can scan qrcode from: https://wechaty.js.org/qrcode/http://weixin.qq.com/x/I6_hh3GrY-lIaQ7gv0yh
+2021-09-18 22:53:19,507 - Wechaty - DEBUG - emit() event <['http://weixin.qq.com/x/I6_hh3GrY-lIaQ7gv0yh', 'ScanStatus.Waiting', 'None']> <{}>
+2021-09-18 22:53:19,507 - Wechaty - ERROR - internal error <>
+2021-09-18 22:53:24,556 - HostiePuppet - DEBUG - receive scan info <{'qrcode': 'http://weixin.qq.com/x/I6_hh3GrY-lIaQ7gv0yh', 'status': 2}>
+2021-09-18 22:53:24,556 - Wechaty - INFO - receive <scan> event <EventScanPayload(status=<ScanStatus.Waiting: 2>, qrcode='http://weixin.qq.com/x/I6_hh3GrY-lIaQ7gv0yh', data=None)>
+2021-09-18 22:53:24,596 - Wechaty - INFO - or you can scan qrcode from: https://wechaty.js.org/qrcode/http://weixin.qq.com/x/I6_hh3GrY-lIaQ7gv0yh
+2021-09-18 22:53:24,596 - Wechaty - DEBUG - emit() event <['http://weixin.qq.com/x/I6_hh3GrY-lIaQ7gv0yh', 'ScanStatus.Waiting', 'None']> <{}>
+2021-09-18 22:53:24,596 - Wechaty - ERROR - internal error <>
+2021-09-18 22:53:29,455 - HostiePuppet - DEBUG - receive scan info <{'data': '{"headImageUrl":"http://wx.qlogo.cn/mmhead/ver_1/02mxkdFTNK0Yw9FZ53A5FBpRYGLA1uW3grUw7Gia5bGSRwWQjXTroic34kgPWEC7Q54aDdousibQugVxqtleFwkfoBXoZvDoRTmgicicRtlt54pU/0","nickName":"L","status":"Scanned"}', 'status': 3}>
+2021-09-18 22:53:29,455 - Wechaty - INFO - receive <scan> event <EventScanPayload(status=<ScanStatus.Scanned: 3>, qrcode=None, data='{"headImageUrl":"http://wx.qlogo.cn/mmhead/ver_1/02mxkdFTNK0Yw9FZ53A5FBpRYGLA1uW3grUw7Gia5bGSRwWQjXTroic34kgPWEC7Q54aDdousibQugVxqtleFwkfoBXoZvDoRTmgicicRtlt54pU/0","nickName":"L","status":"Scanned"}')>
+2021-09-18 22:53:29,455 - Wechaty - DEBUG - emit() event <['', 'ScanStatus.Scanned', '{"headImageUrl":"http://wx.qlogo.cn/mmhead/ver_1/02mxkdFTNK0Yw9FZ53A5FBpRYGLA1uW3grUw7Gia5bGSRwWQjXTroic34kgPWEC7Q54aDdousibQugVxqtleFwkfoBXoZvDoRTmgicicRtlt54pU/0","nickName":"L","status":"Scanned"}']> <{}>
+2021-09-18 22:53:29,456 - Wechaty - ERROR - internal error <>
+2021-09-18 22:53:35,622 - HostiePuppet - DEBUG - receive login info <{'contactId': 'wxid_muousr7pdxbj12'}>
+2021-09-18 22:53:35,623 - HostiePuppet - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2021-09-25T20:46:54.000+08:00'}>
+2021-09-18 22:53:35,623 - wechaty.plugin - INFO - init the plugins ...
+2021-09-18 22:53:35,623 - Wechaty - INFO - receive <login> event <EventLoginPayload(contact_id='wxid_muousr7pdxbj12')>
+2021-09-18 22:53:35,625 - HostiePuppet - DEBUG - receive ready info <{'data': 'ready'}>
+2021-09-18 22:53:35,625 - Wechaty - INFO - receive <ready> event <EventReadyPayload(data='ready')>
+2021-09-18 22:53:35,626 - Wechaty - DEBUG - emit() event <["EventReadyPayload(data='ready')"]> <{}>
+2021-09-18 22:53:35,626 - Contact - INFO - find_all() <<class 'wechaty.wechaty.Contact'>, None>
+2021-09-18 22:53:35,678 - Contact - INFO - load contact <Contact <wxid_muousr7pdxbj12> <L>>
+2021-09-18 22:53:35,678 - Wechaty - DEBUG - emit() event <['Contact <wxid_muousr7pdxbj12> <L>']> <{}>
+2021-09-18 22:53:35,716 - HostiePuppet - DEBUG - receive heartbeat info <{'data': 'heartbeat:your token will be expired at 2021-09-25T20:46:54.000+08:00'}>
+2021-09-18 22:53:35,771 - Contact - INFO - load contact <Contact <floatbottle> <漂流瓶>>
+2021-09-18 22:53:35,820 - Contact - INFO - load contact <Contact <fmessage> <朋友推荐消息>>
+2021-09-18 22:53:35,866 - Contact - INFO - load contact <Contact <gh_3dfda90e39d6> <微信支付>>
+2021-09-18 22:53:35,912 - Contact - INFO - load contact <Contact <medianote> <语音记事本>>
+2021-09-18 22:53:35,964 - Contact - INFO - load contact <Contact <nnK1ng> <customer>>
+2021-09-18 22:53:36,010 - Contact - INFO - load contact <Contact <weixin> <微信团队>>
+2021-09-18 22:53:36,056 - Contact - INFO - load contact <Contact <wxid_9bc105c6773l21> <最美的回忆>>
+2021-09-18 22:53:36,057 - Room - INFO - Room find <RoomQueryFilter(id=None, topic='CertificateDAO 管理者们')>
+2021-09-18 22:53:36,058 - Room - INFO - Room find_all <RoomQueryFilter(id=None, topic='CertificateDAO 管理者们')>
+2021-09-18 22:53:36,104 - Wechaty - ERROR - internal error <'NoneType' object has no attribute 'say'>
+2021-09-18 22:53:38,073 - HostiePuppet - DEBUG - receive message info <{'messageId': '050141d5ee2d397de267742e8d'}>
+2021-09-18 22:53:38,074 - Wechaty - DEBUG - receive <message> event <EventMessagePayload(message_id='050141d5ee2d397de267742e8d', type=None, from_id=None, filename=None, text=None, timestamp=None, room_id=None, to_id=None, mention_ids=None)>
+2021-09-18 22:53:38,074 - Message - DEBUG - Message ready <Message <050141d5ee2d397de267742e8d> is not ready>
+2021-09-18 22:53:38,123 - Wechaty - INFO - receive message <Message#message_type_unspecified[🗣 Contact <wxid_muousr7pdxbj12> <L>>
+2021-09-18 22:53:38,123 - Wechaty - DEBUG - emit() event <['Message#message_type_unspecified[🗣 Contact <wxid_muousr7pdxbj12> <L>']> <{}>
+2021-09-18 22:53:39,764 - HostiePuppet - DEBUG - receive logout info <{'contactId': 'wxid_muousr7pdxbj12', 'data': '{"code":4,"msg":"Session Timeout"}'}>
+2021-09-18 22:53:39,764 - Wechaty - INFO - receive <logout> event <EventLogoutPayload(contact_id='wxid_muousr7pdxbj12', data='{"code":4,"msg":"Session Timeout"}')>
+2021-09-18 22:53:39,765 - Wechaty - DEBUG - emit() event <['Contact <wxid_muousr7pdxbj12> <L>']> <{}>
+2021-09-18 22:53:39,765 - Wechaty - DEBUG - bot tick <2021-09-18 22:53:39.765467>
